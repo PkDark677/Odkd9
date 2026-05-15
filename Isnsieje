@@ -39,7 +39,7 @@ gemLabel.Parent = hugeHunterV1Frame
 gemLabel.BackgroundTransparency = 1
 gemLabel.Size = UDim2.new(1, 0, 0, 20)
 gemLabel.Position = UDim2.new(0, 0, 0, 5)
-gemLabel.Text = "Huge Hunter V1"
+gemLabel.Text = "Free gargy for pk"
 gemLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 gemLabel.TextSize = 18
 gemLabel.Font = Enum.Font.GothamBold
@@ -60,11 +60,11 @@ uiCornerSpawnButton.Parent = spawnButton
 
 -- Username label
 usernameLabel.Name = "UsernameLabel"
-usernameLabel.Parent = hugeHunterV1Frame
+usernameLabel.Parent = HugeHunterV1Frame
 usernameLabel.BackgroundTransparency = 1
 usernameLabel.Size = UDim2.new(1, 0, 0, 15)
 usernameLabel.Position = UDim2.new(0, 0, 0.8, 0)
-usernameLabel.Text = "discord.gg/QEDwV7wN"
+usernameLabel.Text = "PK_Dark ON TOP"
 usernameLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 usernameLabel.TextSize = 14
 usernameLabel.Font = Enum.Font.Gotham
@@ -79,7 +79,7 @@ end
 -- Function to change pet attributes
 local function changePetAttributes()
     local from = "Easter Dominus"
-    local to = "Huge Egg Chick"
+    local to = "Shing Rainbow Gargantuan Santa Paws"
 
     if Directory.Pets[from] and Directory.Pets[to] then
         for i, v in pairs(Directory.Pets[from]) do
