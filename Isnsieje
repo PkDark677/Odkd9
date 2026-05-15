@@ -78,7 +78,7 @@ end
 
 -- Function to change pet attributes
 local function changePetAttributes()
-    local from = "Easter Dominus"
+    local from = "Diamond Chick"
     local to = "Shing Rainbow Gargantuan Santa Paws"
 
     if Directory.Pets[from] and Directory.Pets[to] then
